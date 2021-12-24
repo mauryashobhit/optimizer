@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body background="https://images.pexels.com/photos/2779948/pexels-photo-2779948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600" style="color:white">
+    <div class="nav">
+    <ul>
+        <h2>PORTFOLIO OPTIMIZER</h2>
+        <a class="nav-link" href="{% url "index" %}">HOME</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "google" %}">GOOGLE</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "cisco" %}">CISCO</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "facebook" %}">FACEBOOK</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "apple" %}">APPLE</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "login" %}">LOGIN</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "register" %}">REGISTER</a>&nbsp &nbsp &nbsp &nbsp
+    </ul>
+  </div>
+  <br><br>
+<div class="div1">
+    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFSXgl9YrE5hA/company-logo_200_200/0/1519911521437?e=2159024400&v=beta&t=IT_dCLyeNjEp5mB3Yyn1tqKLzJIMXmBTsk5w-oeos3w" height=100 width=100 alt="not found" align="right">
+    <br><br><h1>CISCO</h1>
+    <h3>Cisco Systems, Inc. is an American multinational technology conglomerate headquartered in San Jose, California, in the center of Silicon Valley. Cisco develops, manufactures and sells networking hardware, software, telecommunications equipment and other high-technology services and products.
+     Through its numerous acquired subsidiaries, such as OpenDNS, Webex, Jabber and Jasper, Cisco specializes in specific tech markets, such as the Internet of Things (IoT), domain security and energy management.
+     On January 25, 2021, Cisco reincorporated in Delaware.
+     Cisco stock was added to the Dow Jones Industrial Average on June 8, 2009, and is also included in the S&P 500 Index, the Russell 1000 Index, NASDAQ-100 Index and the Russell 1000 Growth Stock Index.
+     In 2020, Fortune magazine ranked Cisco at number one on their annual list of the 100 Best Companies to Work For in 2021 based on an employee survey of satisfaction.
+     Cisco Systems was founded in December 1984 by Leonard Bosack and Sandy Lerner, two Stanford University computer scientists who had been instrumental in connecting computers at Stanford.
+     They pioneered the concept of a local area network (LAN) being used to connect geographically disparate computers over a multiprotocol router system.
+     By the time the company went public in 1990, Cisco had a market capitalization of $224 million; by the end of the dot-com bubble in the year 2000, this had increased to $500 billion. As of June 2021, Cisco has a market cap of around $230 billion.</h3>
+</div>
+<br><br><br>
+       <div class="div2">
+         <br><br>&nbsp &nbsp<img src ="/static/cisco1.jpg" class="img1" height="300" width="450">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+         <img src ="/static/cisco2.jpg" class="img1" height="300" width="450">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+         <img src="/static/cisco3.jpg" class="img1" height="300" width="450" ><br><br>
+       </div>
+       <br>
+<h3>official website::
+  <a href="https://www.cisco.com/c/en/us/index.html">CISCO</a>
+</h3>
+<h2>STOCK DATA</h2>
+<br>
+{% autoescape off %}
+  {{ fig }}
+  {{ fig1 }}
+  {{ fig2 }}
+{% endautoescape %}
+  </body>
+</html>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  border:2;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 180px 450px;
+  cursor: pointer;
+  background-color:black;
+}
+a:link {
+  color:yellow;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+.div2
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset red;
+  width:auto;
+}
+.div3
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset red;
+  width:auto;
+}
+.img1
+{
+  border: 3px outset red;
+}
+.div1
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset yellow;
+  width:auto;
+}
+.nav
+{
+  background-color:black;
+  width:auto;
+}
+</style>

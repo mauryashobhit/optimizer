@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<title></title>
+</head>
+<body background="https://images.pexels.com/photos/2779948/pexels-photo-2779948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600" style="color:white">
+  <div class="nav">
+  <ul>
+      <h2>PORTFOLIO OPTIMIZER</h2>
+      <a class="nav-link" href="{% url "index" %}">HOME</a>&nbsp &nbsp &nbsp &nbsp
+      <a class="nav-link" href="{% url "google" %}">GOOGLE</a>&nbsp &nbsp &nbsp &nbsp
+      <a class="nav-link" href="{% url "cisco" %}">CISCO</a>&nbsp &nbsp &nbsp &nbsp
+      <a class="nav-link" href="{% url "facebook" %}">FACEBOOK</a>&nbsp &nbsp &nbsp &nbsp
+      <a class="nav-link" href="{% url "apple" %}">APPLE</a>&nbsp &nbsp &nbsp &nbsp
+      <a class="nav-link" href="{% url "login" %}">LOGIN</a>&nbsp &nbsp &nbsp &nbsp
+      <a class="nav-link" href="{% url "register" %}">REGISTER</a>&nbsp &nbsp &nbsp &nbsp
+  </ul>
+  </div>
+  <br><br>
+  <div class="div1">
+    <img src="/static/facebook1.png" height=100 width=100 alt="not found" align="right">
+    <br><br><h1>FACEBOOK</h1>
+    <h3>Facebook, Inc., is an American multinational technology company based in Menlo Park, California.
+      It was founded in 2004 as TheFacebook by Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, roommates and students at Harvard College.
+      The namesake social networking service eventually became Facebook, amassing 2.9 billion monthly users by 2021.
+      The company acquired Instagram in 2012, then WhatsApp and Oculus in 2014. It is one of the world's most valuable companies and is considered one of the Big Five companies in U.S. information technology, alongside Google, Apple, Microsoft and Amazon.
+      The company generates substantially all of its revenue by selling advertisement placements to marketers.
+      Facebook offers other products and services, including Facebook Messenger, Facebook Watch, and Facebook Portal.
+      It has also acquired Giphy and Mapillary, and has a 9.99% stake in Jio Platforms.</h3>
+</div>
+<br><br>
+<div class="div2">
+<br><br>&nbsp &nbsp<img src ="/static/facebook2.png" class="img1" height="300" width="450">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<img src="/static/facebook4.png" class="img1" height="300" width="450" >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<img src="/static/facebook3.png"class="img1" height="300" width="450"><br><br><br>
+</div>
+<h3>official website::
+  <a href="https://en-gb.facebook.com/business">FACEBOOK</a>
+</h3>
+<h2>STOCK DATA</h2>
+<br><br>
+{% autoescape off %}
+  {{ fig }}
+  {{ fig1 }}
+  {{ fig2 }}
+{% endautoescape %}
+</body>
+</html>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  border:2;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 180px 450px;
+  cursor: pointer;
+  background-color:black;
+}
+a:link {
+  color:yellow;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+.div2
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset red;
+  width:auto;
+}
+.div3
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset red;
+  width:auto;
+}
+.img1
+{
+  border: 3px outset red;
+}
+.div1
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset yellow;
+  width:auto;
+}
+.nav
+{
+  background-color:black;
+  width:auto;
+}
+</style>

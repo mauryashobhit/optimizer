@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body background="https://images.pexels.com/photos/2779948/pexels-photo-2779948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600" style="color:white">
+    <div class="nav">
+    <ul>
+        <h2>PORTFOLIO OPTIMIZER</h2>
+        <a class="nav-link" href="{% url "user" %}">HOME</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "forecast_google" %}">GOOGLE_FORECAST</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "forecast_cisco" %}">CISCO_FORECAST</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "forecast_facebook" %}">FACEBOOK_FORECAST</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "forecast_apple" %}">APPLE_FORECAST</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "user_google" %}">GOOGLE</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "user_cisco" %}">CISCO</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "user_facebook" %}">FACEBOOK</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "user_apple" %}">APPLE</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "news" %}">NEWS</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "logout" %}">LOGOUT</a>&nbsp &nbsp &nbsp &nbsp
+    </ul>
+  </div>
+    <h1 align="center" style="color:red">LIVE STOCK MARKET NEWS</h1><br>
+    <div class="div1">
+    <h2 align="center" style="color:white">{{list.0}}</h2><h2 align="center" style="color:yellow">{{list1.0}}</h2><br><br>
+    <h2 align="center" style="color:white">{{list.1}}</h2><h2 align="center" style="color:yellow">{{list1.1}}</h2><br><br>
+    <h2 align="center" style="color:white">{{list.2}}</h2><h2 align="center" style="color:yellow">{{list1.2}}</h2><br><br>
+    <h2 align="center" style="color:white">{{list.3}}</h2><h2 align="center" style="color:yellow">{{list1.3}}</h2><br><br>
+    <h2 align="center" style="color:white">{{list.4}}</h2><h2 align="center" style="color:yellow">{{list1.4}}</h2><br><br>
+    <h2 align="center" style="color:white">{{list.5}}</h2><h2 align="center" style="color:yellow">{{list1.5}}</h2><br><br>
+    <h2 align="center" style="color:white">{{list.6}}</h2><h2 align="center" style="color:yellow">{{list1.6}}</h2><br><br>
+    <h2 align="center" style="color:white">{{list.7}}</h2><h2 align="center" style="color:yellow">{{list1.7}}</h2><br><Br>
+    <h2 align="center" style="color:white">{{list.8}}</h2><h2 align="center" style="color:yellow">{{list1.8}}</h2><br><Br>
+    <h2 align="center" style="color:white">{{list.9}}</h2><h2 align="center" style="color:yellow">{{list1.9}}</h2><br><Br>
+    <h2 align="center" style="color:white">{{list.10}}</h2><h2 align="center" style="color:yellow">{{list1.10}}</h2><br><Br>
+  </h2>
+</div>
+  </body>
+</html>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  border:3px outset red;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:black;
+}
+a:link {
+  color:gray;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+.div1
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset yellow;
+  width:100%;
+}
+.nav
+{
+  background-color:black;
+  width:auto;
+}
+body {
+    font-family:Helvetica;
+}
+</style>

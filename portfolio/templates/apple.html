@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body background="https://images.pexels.com/photos/2779948/pexels-photo-2779948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600" style="color:white">
+    <div class="nav">
+    <ul>
+        <h2>PORTFOLIO OPTIMIZER</h2>
+        <a class="nav-link" href="{% url "index" %}">HOME</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "google" %}">GOOGLE</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "cisco" %}">CISCO</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "facebook" %}">FACEBOOK</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "apple" %}">APPLE</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "login" %}">LOGIN</a>&nbsp &nbsp &nbsp &nbsp
+        <a class="nav-link" href="{% url "register" %}">REGISTER</a>&nbsp &nbsp &nbsp &nbsp
+    </ul>
+  </div>
+  <br><br>
+<div class="div1">
+<img src="/static/apple1.jpg" height=110 width=150 alt="not found" align="right">
+<br><br><h1>APPLE</h1>
+<h3>
+  Apple Inc. is an American multinational technology company that specializes in consumer electronics, computer software, and online services.
+  Apple is the world's largest technology company by revenue (totaling $274.5 billion in 2020) and, since January 2021, the world's most valuable company.
+  As of 2021, Apple is the world's fourth-largest PC vendor by unit sales, and fourth-largest smartphone manufacturer.
+  It is one of the Big Five American information technology companies, along with Amazon, Google, Microsoft, and Facebook.
+  Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976 to develop and sell Wozniak's Apple I personal computer.
+  It was incorporated by Jobs and Wozniak as Apple Computer, Inc. in 1977, and sales of its computers, including the Apple II, grew quickly.
+  They went public in 1980 to instant financial success. Over the next few years, Apple shipped new computers featuring innovative graphical user interfaces, such as the original Macintosh, announced with the critically acclaimed advert "1984".
+  However, the high price of its products and limited application library caused problems, as did power struggles between executives.
+  In 1985, Wozniak departed Apple amicably, while Jobs resigned to found NeXT, taking some Apple co-workers with him.
+</h3>
+</div>
+<br><br>
+
+<div class="div2">
+    <br><br>&nbsp &nbsp<img src ="/static/apple2.jpg" class="img1" height="270" width="450">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    <img src="/static/apple3.jpg" class="img1" height="270" width="450" >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    <img src="/static/apple4.jpeg" class="img1" height="270" width="450"><br><br>
+</div>
+<h3>official website::
+  <a href="https://www.apple.com/in/">APPLE</a>
+</h3>
+<h2>STOCK DATA</h2>
+<br>
+{% autoescape off %}
+  {{ fig }}
+  {{ fig1 }}
+  {{ fig2 }}
+{% endautoescape %}
+</body>
+</html>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  border:2;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 180px 450px;
+  cursor: pointer;
+  background-color:black;
+}
+a:link {
+  color:yellow;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+.div2
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset red;
+  width:auto;
+}
+.div3
+{
+  background-color:black;
+  opacity:0.9;
+  border: 3px outset red;
+  width:auto;
+}
+.img1
+{
+  border: 3px outset red;
+}
+.div1
+{
+  background-color:black;
+  opacity:0.9;
+  border: 5px outset yellow;
+  width:auto;
+}
+.nav
+{
+  background-color:black;
+  width:auto;
+}
+
+</style>
