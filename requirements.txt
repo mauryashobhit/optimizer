@@ -36,6 +36,7 @@ dj-database-url==0.5.0
 Django==3.2.6
 django-allauth==0.45.0
 django-crispy-forms==1.12.0
+django-heroku==0.3.1
 entrypoints==0.3
 ephem @ file:///D:/bld/ephem_1623723284485/work
 fbprophet @ file:///D:/bld/fbprophet_1599365958928/work
@@ -94,6 +95,7 @@ plotly==5.3.1
 prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1623189609245/work
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
 protobuf==3.18.0
+psycopg2==2.9.2
 pyarrow==5.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.7
