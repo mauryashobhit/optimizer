@@ -4,7 +4,7 @@
 **Description**
 **This repository represents the web application on topic "portfolio optimizer"**
 
-Portfolio optimizer is web application for investors which provides the distribution of the total amount htey want to invest in their portfolio companies stocks
+Portfolio optimizer is web application for investors which provides the distribution of the total amount they want to invest in their portfolio companies stocks
 in order to maximize their gains and minimize their risk on the basis of the five years stock data of their portfolio companies.
 
 **Features**
@@ -24,6 +24,8 @@ in order to maximize their gains and minimize their risk on the basis of the fiv
 7.Actual Data
 
 8.Live Stock Market News
+
+9.Optimizer
 
 **Technologies Used**
 
